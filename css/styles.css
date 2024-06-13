@@ -108,7 +108,8 @@ img {
 
 
 .hero{
-        background: #2E2F42;
+        background-image: url(../images/people-office\ 1.jpg);
+        background-size: cover;
         padding:188px 0;
 }
 .desigions{
