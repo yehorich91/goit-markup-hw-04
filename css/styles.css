@@ -136,10 +136,7 @@ img {
         max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center; 
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg)
-          url(../images/people-office\ 1.jpg);
-          background-size: cover;
+        background-size: cover;
 }
 .desigions{
 font-size: 56px;
@@ -389,6 +386,7 @@ margin-bottom: 8px;
         display: flex;
 }
 .footer{
+    display: flex;
     align-items: baseline;
     width: 264px;
     height: 112px;
