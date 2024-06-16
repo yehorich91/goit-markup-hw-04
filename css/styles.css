@@ -137,7 +137,7 @@ img {
         background-repeat: no-repeat;
         background-position: center; 
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)),
+         rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg)
           url(../images/people-office\ 1.jpg);
           background-size: cover;
 }
@@ -287,10 +287,10 @@ margin-bottom: 8px;
    }
    .network-link:focus
    {
-    background-color: #404BBF;
+    background-color: #404bbf;
    }
    .icon-item{
-    fill: #f4f4fd;
+    fill:color var(--text-color);
    }
 .worker-name{
     padding: 32px 0;
@@ -384,38 +384,52 @@ margin-bottom: 8px;
     .floor{
         background: #2E2F42;
         padding: 100px 0;
+        width: 1440px;
+        height: 312px;
+        display: flex;
 }
-.footer-social-media{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--background-color);
-    margin-bottom: 16px;
-}
-.footer-container{
-    display: flex;
+.footer{
     align-items: baseline;
+    width: 264px;
+    height: 112px;
     margin-right: 120px;
+    margin-left: 156px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.footer-social-network{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 208px;
+    height: 80px;
+    flex-direction: row;
+    
+    
+}
+.footer-text{
+    color:var(--text-color);
 
 }
-.floor-text{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    max-width: 264px;
-}
-.webstudio-floor{
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    display: inline-block;
-    margin-bottom: 16px; 
+.webstudio-footer{
+font-family: "Raleway",sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+margin-right: 76px;
+margin-bottom: 16px;
 }
 .studio-floor{
     color: #f4f4fd;
+}
+.social-media{
+    font-weight:500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--background-color);
+    margin-bottom: 16px;
 }
