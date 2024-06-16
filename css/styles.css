@@ -366,7 +366,7 @@ margin-bottom: 8px;
     color: #434455;
     
 }
-.description:hover{
+.alt-text:hover{
     transform: translateY(0%);
 }
 .picture{
