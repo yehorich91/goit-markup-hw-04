@@ -28,6 +28,10 @@ a{
 img {
     display: block;
 }
+.page-container{
+    position: relative;
+   
+}
 .head{
     border-bottom: 1px solid #e7e9fc;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -313,7 +317,11 @@ margin-bottom: 8px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.container{
+    position: relative;
+    width: 1128;
+    height: 1000;
+}
 .portfolio{
     font-size: 36px;
     line-height: 1.11;
@@ -385,6 +393,9 @@ margin-bottom: 8px;
         width: 1440px;
         height: 312px;
         display: flex;
+        position: relative;
+        top:0;
+
 }
 .footer{
     display: flex;
@@ -395,6 +406,7 @@ margin-bottom: 8px;
     margin-left: 156px;
     box-sizing: border-box;
     flex-wrap: wrap;
+    
 }
 .footer-social-network-box{
     box-sizing: border-box;
