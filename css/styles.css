@@ -450,3 +450,7 @@ margin-bottom: 16px;
     color:var(--background-color);
     margin-bottom: 16px;
 }
+.social-network-list-footer{
+    display: flex;
+    gap: 16px;
+}
