@@ -372,6 +372,7 @@ margin-bottom: 8px;
 .picture{
     overflow: hidden;
     position: relative;
+    transform: translateY(0%);
 }
 .alt-text{
     position: absolute;
@@ -404,14 +405,11 @@ margin-bottom: 8px;
     align-items:baseline;
 }
 .footer{
-    display: flex;
-    align-items: baseline;
     width: 264px;
     height: 112px;
     margin-right: 120px;
     margin-left: 156px;
-    box-sizing: border-box;
-    flex-wrap: wrap;
+    
     
 }
 .footer-social-network-box{
